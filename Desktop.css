@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(bg-intro-desktop.png);
+  background-color: lightcoral;
+}
+main {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.firstcontainer {
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.secondcontainer {
+  background-color: #b17095;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 75%;
+  margin: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.thirdcontainer {
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: #fff;
+  width: 80%;
+}
+form {
+  align-items: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 15px;
+  margin: 10px 0 30px 0;
+  background: white;
+  border-radius: 1em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: white;
+  border-color: #cec2c2;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 97%;
+  opacity: 0.9;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/*  buttons and add an equal width */
+.freetrail {
+  float: center;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 30px;
+}
+
+/* Change styles for freetrail button on extra small screens */
+@media screen and (max-width: 300px) {
+  .freetrial {
+    width: 100%;
+  }
+}
+.ts {
+  font-size: x-small;
+  text-align: center;
+  color: rgb(205, 209, 213);
+}
